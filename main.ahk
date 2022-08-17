@@ -4,6 +4,11 @@ lis_packages(){
     ; 需要安裝的模組
     lis := []
     lis.Push("PySimpleGUI")
+
+    lis.Push("click")
+    lis.Push("colorama")
+    lis.Push("importlib_metadata")
+
     return lis
 }
 
