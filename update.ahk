@@ -13,7 +13,7 @@ update_handle(){ ; 更新
 
     MyCmd := zipapp . a_space . "x" . a_space . venv_zip . a_space . "-oC:\"
     ; MsgBox, %MyCmd%
-    RunWait, %MyCmd% ;執行cmd  
+    RunWait, %MyCmd% ;執行cmd 將環境解壓縮至使用者電腦C槽
 }
 
 main(){
