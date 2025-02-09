@@ -1,0 +1,1 @@
+"C:\Program Files\AutoHotkey\AutoHotkey.exe" install_and_update.ahk
